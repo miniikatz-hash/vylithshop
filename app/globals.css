@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vylith-black: #060608;
+  --color-vylith-void: #0a0a0f;
+  --color-vylith-purple-deep: #1a0033;
+  --color-vylith-purple: #7c3aed;
+  --color-vylith-purple-glow: #a855f7;
+  --color-vylith-purple-light: #d8b4fe;
+  --color-vylith-blue-deep: #0d1b3e;
+  --color-vylith-blue: #1d4ed8;
+  --color-vylith-gold: #c9a227;
+  --color-vylith-gold-light: #f0c040;
+  --color-vylith-white: #f8f4ff;
+  --color-vylith-border: rgba(124, 58, 237, 0.18);
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('https://fonts.cdnfonts.com/s/14920/Canela-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('https://fonts.cdnfonts.com/s/14920/Canela-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    background-color: var(--color-vylith-black);
+    color: var(--color-vylith-white);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Canela', Georgia, serif;
+    line-height: 1.1;
+  }
+
+  ::selection {
+    background-color: var(--color-vylith-purple);
+    color: var(--color-vylith-white);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, var(--color-vylith-purple-glow), var(--color-vylith-gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glow-purple {
+    box-shadow: 0 0 40px rgba(124, 58, 237, 0.3);
+  }
+
+  .glow-gold {
+    box-shadow: 0 0 40px rgba(201, 162, 39, 0.3);
+  }
+
+  .glass {
+    background: rgba(10, 10, 15, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+}

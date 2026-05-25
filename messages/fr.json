@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "services": "Services",
+    "work": "Travaux",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Différent. Plus rapide. Plus fort.",
+    "description": "Vylith est une agence de développement web qui construit des produits numériques de classe mondiale pour fondateurs, startups et entreprises.",
+    "cta_demo": "Réserver une démo",
+    "cta_work": "Voir nos travaux",
+    "scroll": "Défiler"
+  },
+  "services": {
+    "title": "Services",
+    "web_design": "Design Web",
+    "web_design_desc": "Des designs magnifiques axés sur la conversion qui rendent votre marque inoubliable.",
+    "web_dev": "Développement Web",
+    "web_dev_desc": "Des constructions rapides, évolutives et pixel-parfait avec les frameworks modernes.",
+    "brand": "Identité de Marque",
+    "brand_desc": "Logos, systèmes de couleurs et langages visuels qui racontent votre histoire.",
+    "ecommerce": "E-Commerce",
+    "ecommerce_desc": "Des boutiques en ligne à haut taux de conversion construites pour la croissance.",
+    "seo": "SEO & Performance",
+    "seo_desc": "Vitesse, structure et visibilité qui stimulent la croissance organique.",
+    "maintenance": "Maintenance & Support",
+    "maintenance_desc": "Des soins continus, mises à jour et surveillance pour que votre site ne dorme jamais."
+  },
+  "work": {
+    "title": "Nos Travaux",
+    "view_project": "Voir le projet →"
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "starter": "Démarrage",
+    "starter_desc": "Sites web pour petites entreprises",
+    "growth": "Croissance",
+    "growth_desc": "Le plus populaire",
+    "enterprise": "Entreprise",
+    "enterprise_desc": "Tarification personnalisée",
+    "one_time": "unique",
+    "monthly": "mensuel",
+    "contact_us": "Contactez-nous",
+    "get_started": "Commencer",
+    "features": {
+      "pages_5": "5 pages",
+      "pages_10": "10 pages",
+      "pages_unlimited": "Pages illimitées",
+      "mobile": "Responsive mobile",
+      "seo_basic": "SEO de base",
+      "seo_advanced": "SEO avancé",
+      "cms": "Intégration CMS",
+      "animations": "Animations personnalisées",
+      "dedicated": "Équipe dédiée",
+      "priority": "Support prioritaire",
+      "integrations": "Intégrations personnalisées",
+      "delivery_2": "Livraison en 2 semaines",
+      "delivery_3": "Livraison en 3 semaines"
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients"
+  },
+  "waitlist": {
+    "title": "Rejoindre la liste",
+    "description": "Soyez le premier informé du lancement de nos nouvelles fonctionnalités.",
+    "placeholder": "Entrez votre email",
+    "button": "Rejoindre la liste",
+    "button_loading": "En cours...",
+    "success_title": "Vous êtes inscrit!",
+    "success_desc": "Nous vous contacterons bientôt."
+  },
+  "faq": {
+    "title": "FAQ",
+    "turnaround": "Quel est le délai de livraison typique?",
+    "turnaround_ans": "La plupart des projets sont livrés en 2 à 4 semaines selon la portée. Les projets entreprise peuvent prendre 6 à 8 semaines.",
+    "revisions": "Combien de révisions sont incluses?",
+    "revisions_ans": "Tous les forfaits incluent des révisions illimitées dans le périmètre convenu. Nous travaillons jusqu'à votre entière satisfaction.",
+    "tech": "Quelles technologies utilisez-vous?",
+    "tech_ans": "Nous sommes spécialisés en Next.js, React, TypeScript, Tailwind CSS, GSAP, Three.js et divers CMS headless.",
+    "maintenance": "Offrez-vous une maintenance continue?",
+    "maintenance_ans": "Oui, nous proposons des forfaits mensuels incluant mises à jour, surveillance, correctifs de sécurité et support prioritaire.",
+    "existing_design": "Pouvez-vous travailler avec notre design existant?",
+    "existing_design_ans": "Absolument. Nous pouvons implémenter vos designs existants ou en créer de nouveaux selon vos directives de marque.",
+    "seo": "Fournissez-vous des services SEO?",
+    "seo_ans": "Oui, tous nos builds incluent les meilleures pratiques SEO techniques. Nous proposons aussi des forfaits d'optimisation SEO continue.",
+    "payment": "Quelle est votre structure de paiement?",
+    "payment_ans": "Nous demandons un acompte de 50% pour commencer, le solde étant dû à la livraison et validation.",
+    "international": "Travaillez-vous avec des clients internationaux?",
+    "international_ans": "Oui, nous travaillons avec des clients dans le monde entier. Nous avons une expérience de collaboration à distance à travers les fuseaux horaires."
+  },
+  "demo": {
+    "title": "Réserver une démo",
+    "description": "Découvrez ce que Vylith peut faire pour votre entreprise.",
+    "name": "Nom",
+    "email": "Email",
+    "company": "Entreprise",
+    "date": "Date préférée",
+    "submit": "Réserver",
+    "submit_loading": "Réservation...",
+    "success_title": "Démo réservée!",
+    "success_desc": "Nous vous enverrons un email de confirmation."
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Parlez-nous de votre projet et nous vous répondrons sous 24 heures.",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Envoyer",
+    "submit_loading": "Envoi...",
+    "success_title": "Message envoyé!",
+    "success_desc": "Nous vous répondrons sous 24 heures."
+  },
+  "auth": {
+    "login": "Connexion",
+    "signup": "Créer un compte",
+    "email": "Email",
+    "password": "Mot de passe",
+    "submit_login": "Se connecter",
+    "submit_signup": "Créer",
+    "loading_login": "Connexion...",
+    "loading_signup": "Création...",
+    "success_signup": "Vérifiez votre email pour confirmer votre compte."
+  },
+  "thanks": {
+    "title": "Merci!",
+    "description": "Nous avons reçu votre message et vous répondrons sous 24 heures.",
+    "back_home": "Retour à l'accueil"
+  }
+}
