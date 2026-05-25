@@ -49,7 +49,6 @@ export function HeroSection() {
         preload="auto"
         poster="/vylith-hero-poster.jpg"
       >
-        <source src="/vylith-hero.webm" type="video/webm" />
         <source src="/vylith-hero.mp4" type="video/mp4" />
       </video>
 
